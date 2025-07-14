@@ -14,6 +14,7 @@ map({"n", "t"}, "<A-h>", "<cmd>wincmd h<cr>", {desc = "Move to left Window"})
 map({"n", "t"}, "<A-j>", "<cmd>wincmd j<cr>", {desc = "Move to down Window"})
 map({"n", "t"}, "<A-k>", "<cmd>wincmd k<cr>", {desc = "Move to up Window"})
 map({"n", "t"}, "<A-l>", "<cmd>wincmd l<cr>", {desc = "Move to right Window"})
+ 
 
 -- Additional terminal mode specific mappings
 M.terminal = {
